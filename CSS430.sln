@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P1_UnixShell", "P1_UnixShell\P1_UnixShell.vcxproj", "{438D73AB-0545-4D2E-A34D-E8C2733D4E78}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P1_1_UnixShell", "P1_UnixShell\P1_UnixShell.vcxproj", "{438D73AB-0545-4D2E-A34D-E8C2733D4E78}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P2_MultiThreaded_SudokuValidator", "P2_MultiThreaded_SudokuValidator\P2_MultiThreaded_SudokuValidator.vcxproj", "{E37E61D2-13B8-4631-94E8-6011073F5D19}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P2_1_MultiThreaded_SudokuValidator", "P2_MultiThreaded_SudokuValidator\P2_MultiThreaded_SudokuValidator.vcxproj", "{E37E61D2-13B8-4631-94E8-6011073F5D19}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P3_Scheduling Algorithms", "P3_Scheduling Algorithms\P3_Scheduling Algorithms.vcxproj", "{1DB858BC-5448-4F3E-9B8C-1B5D4803F8FF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P3_1_Scheduling Algorithms", "P3_Scheduling Algorithms\P3_Scheduling Algorithms.vcxproj", "{1DB858BC-5448-4F3E-9B8C-1B5D4803F8FF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P4_Continguous Memory Allocation", "P4_Continguous Memory Allocation\P4_Continguous Memory Allocation.vcxproj", "{6FD0DFA4-CBB2-46D1-B7E6-ACAAD371FBD4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P5_Unix_BFS File System", "P5_Unix_BFS File System\P5_Unix_BFS File System.vcxproj", "{3D3727BD-36AE-43A3-86F3-0FAA939625A0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P1_2_Unix Shell", "P1-2_Unix Shell\P1-2_Unix Shell.vcxproj", "{B1B9507E-7D84-42B2-9230-3043F24E8B17}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P2_2_DataServer", "P2-1_DataServer\P2-1_DataServer.vcxproj", "{B8F9B43B-2085-47BA-97D6-BB0D9EDDF041}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P3_2_Scheduling Algorithms", "P3_1_Scheduling Algorithms\P3_1_Scheduling Algorithms.vcxproj", "{78958B64-EEB7-42EA-B9DD-B5FA0A5C3A85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +67,30 @@ Global
 		{3D3727BD-36AE-43A3-86F3-0FAA939625A0}.Release|x64.Build.0 = Release|x64
 		{3D3727BD-36AE-43A3-86F3-0FAA939625A0}.Release|x86.ActiveCfg = Release|Win32
 		{3D3727BD-36AE-43A3-86F3-0FAA939625A0}.Release|x86.Build.0 = Release|Win32
+		{B1B9507E-7D84-42B2-9230-3043F24E8B17}.Debug|x64.ActiveCfg = Debug|x64
+		{B1B9507E-7D84-42B2-9230-3043F24E8B17}.Debug|x64.Build.0 = Debug|x64
+		{B1B9507E-7D84-42B2-9230-3043F24E8B17}.Debug|x86.ActiveCfg = Debug|Win32
+		{B1B9507E-7D84-42B2-9230-3043F24E8B17}.Debug|x86.Build.0 = Debug|Win32
+		{B1B9507E-7D84-42B2-9230-3043F24E8B17}.Release|x64.ActiveCfg = Release|x64
+		{B1B9507E-7D84-42B2-9230-3043F24E8B17}.Release|x64.Build.0 = Release|x64
+		{B1B9507E-7D84-42B2-9230-3043F24E8B17}.Release|x86.ActiveCfg = Release|Win32
+		{B1B9507E-7D84-42B2-9230-3043F24E8B17}.Release|x86.Build.0 = Release|Win32
+		{B8F9B43B-2085-47BA-97D6-BB0D9EDDF041}.Debug|x64.ActiveCfg = Debug|x64
+		{B8F9B43B-2085-47BA-97D6-BB0D9EDDF041}.Debug|x64.Build.0 = Debug|x64
+		{B8F9B43B-2085-47BA-97D6-BB0D9EDDF041}.Debug|x86.ActiveCfg = Debug|Win32
+		{B8F9B43B-2085-47BA-97D6-BB0D9EDDF041}.Debug|x86.Build.0 = Debug|Win32
+		{B8F9B43B-2085-47BA-97D6-BB0D9EDDF041}.Release|x64.ActiveCfg = Release|x64
+		{B8F9B43B-2085-47BA-97D6-BB0D9EDDF041}.Release|x64.Build.0 = Release|x64
+		{B8F9B43B-2085-47BA-97D6-BB0D9EDDF041}.Release|x86.ActiveCfg = Release|Win32
+		{B8F9B43B-2085-47BA-97D6-BB0D9EDDF041}.Release|x86.Build.0 = Release|Win32
+		{78958B64-EEB7-42EA-B9DD-B5FA0A5C3A85}.Debug|x64.ActiveCfg = Debug|x64
+		{78958B64-EEB7-42EA-B9DD-B5FA0A5C3A85}.Debug|x64.Build.0 = Debug|x64
+		{78958B64-EEB7-42EA-B9DD-B5FA0A5C3A85}.Debug|x86.ActiveCfg = Debug|Win32
+		{78958B64-EEB7-42EA-B9DD-B5FA0A5C3A85}.Debug|x86.Build.0 = Debug|Win32
+		{78958B64-EEB7-42EA-B9DD-B5FA0A5C3A85}.Release|x64.ActiveCfg = Release|x64
+		{78958B64-EEB7-42EA-B9DD-B5FA0A5C3A85}.Release|x64.Build.0 = Release|x64
+		{78958B64-EEB7-42EA-B9DD-B5FA0A5C3A85}.Release|x86.ActiveCfg = Release|Win32
+		{78958B64-EEB7-42EA-B9DD-B5FA0A5C3A85}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
