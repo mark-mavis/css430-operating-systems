@@ -24,7 +24,7 @@
     <ProjectGuid>{1db858bc-5448-4f3e-9b8c-1b5d4803f8ff}</ProjectGuid>
     <RootNamespace>P3SchedulingAlgorithms</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>P3_1_Scheduling Algorithms</ProjectName>
+    <ProjectName>P3_SchedulingAlgorithms</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
