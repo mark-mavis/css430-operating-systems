@@ -18,5 +18,49 @@
     <ClCompile Include="fs-1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="bfs.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bio.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deb.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="errors.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fs.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p5test.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="p5test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

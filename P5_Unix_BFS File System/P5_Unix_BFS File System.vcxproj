@@ -139,7 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bfs.c" />
+    <ClCompile Include="bio.c" />
+    <ClCompile Include="deb.c" />
+    <ClCompile Include="errors.c" />
     <ClCompile Include="fs-1.c" />
+    <ClCompile Include="fs.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="p5test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alias.h" />
+    <ClInclude Include="bfs.h" />
+    <ClInclude Include="bio.h" />
+    <ClInclude Include="deb.h" />
+    <ClInclude Include="errors.h" />
+    <ClInclude Include="fs.h" />
+    <ClInclude Include="p5test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
