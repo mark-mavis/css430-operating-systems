@@ -2,11 +2,11 @@
 #include <sys/wait.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 
 
 int main(){
-    pid_t pid, pid1;
+    pid_t pid;
+    pid_t pid1;
 
     /* fork a child process */
     pid = fork();
